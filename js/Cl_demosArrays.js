@@ -254,7 +254,7 @@ personasConEdadIncrementada = ${JSON.stringify(personasConEdadIncrementada)}
     // Mock Data
     const mockData = [10, 20, 30, 40, 50];
     mockData.forEach(function (item) {
-      alert(`Recorrido tradicional: ${item}`);
+      alert(`Recorrido con función tradicional: ${item}`);
     });
     // Using arrow function
     mockData.forEach((item) => alert(`Recorrido con función flecha: ${item}`));
